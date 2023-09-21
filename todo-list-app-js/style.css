@@ -26,6 +26,52 @@ body{
     background-color: #f1f8fb;
     box-shadow: 0 1em 2em rgba(0,0,0,0.2);
     border-radius: 0.8em;
+}
 
+.wrapper{
+    position: relative;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 1em;
+
+}
+
+.wrapper input{
+    width: 100%;
+    background-color: transparent;
+    font-size: 0.9em;
+    border: none;
+    border-bottom: 2px solid #d1d3d4;
+    padding: 1em 0.5em;
+
+}
+
+.wrapper input:focus{
+    outline: none;
+    border-color: #5a95ff;
+
+}
+
+.wrapper button{
+    position: relative;
+    border-radius: 0.5em;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #5a95ff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+#error{
+    text-align: center;
+    color: red;
+    background-color: white;
+    margin-top: 1.5em;
+    padding: 1em 0;
+    border-radius: 0.8em;
+    display: none;
 
 }
