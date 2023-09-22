@@ -22,8 +22,9 @@ const addTask = () => {
     const task = `<div class="task>
     <input type="checkbox" class="task-check">
     <span class="taskname">${taskName}</span>
-    <button clss="edit"><i class="fa-solid fa-pen-to-square"></i></button>
-    <button clss="delete"><i class="fa-solid fa-trash"></i></button>
+    <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+    <button class="delete"><i class="fa-solid fa-trash"></i></button>
+    
     </div>`;
 
     tasksContainer.insertAdjacentHTML("beforeend", task);
