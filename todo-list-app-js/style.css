@@ -11,7 +11,7 @@ body{
 }
 
 .app{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: min(95vw, 31.25em);
     position: absolute;
     margin: auto;
