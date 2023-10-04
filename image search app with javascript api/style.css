@@ -47,13 +47,16 @@ form{
     margin-left: 10px;
 }
 
+
+
 .search-results{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
     max-width: 1200px;
     margin: 0 auto;
 }
+ 
 
 .search-result{
     margin-bottom: 60px;
@@ -76,4 +79,31 @@ form{
     opacity: 0.8;
 }
 
+.search-result a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+}
 
+#show-more-button{
+    background-color: #008cba;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 768px){
+    .search-result {
+        width: 45%;
+    }
+}
