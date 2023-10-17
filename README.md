@@ -3,6 +3,9 @@
 ## Project 1: Unsplash Image Search App 📷
 
 Explore a vast collection of high-quality images using the Unsplash Image Search App.
+![image](https://github.com/mhamza-ali/javascript-projects/assets/81586296/a9ba6f10-55a8-4066-ae81-146bf23dbeba)
+
+
 
 ### Features
 
