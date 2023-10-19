@@ -22,3 +22,5 @@ function addGo(e){
     e.target.append(godisplay)
 
 }
+
+
